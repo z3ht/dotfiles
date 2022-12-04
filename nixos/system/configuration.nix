@@ -1,0 +1,7 @@
+{
+  imports =
+    [
+      ./firefly/configuration.nix
+    ];
+}
+
