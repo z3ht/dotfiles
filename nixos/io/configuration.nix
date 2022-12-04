@@ -1,8 +1,9 @@
 {
   imports = 
     [
-      ./touchpad+mouse/configuration.nix
-      ./us_keyboard/configuration.nix
+      ./touchpad+mouse.nix
+      ./us_keyboard.nix
+      ./displaylink/configuration.nix
     ];
 }
 
