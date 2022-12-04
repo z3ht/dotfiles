@@ -1,7 +1,7 @@
 
 { config, pkgs, ... }:
 let
-  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-22.05.tar.gz";
+  home-manager = builtins.fetchTarball "https://github.com/nix-community/home-manager/archive/release-22.11.tar.gz";
 in
 {
   imports = [
@@ -9,5 +9,6 @@ in
     ./pkgs/git.nix
   ];
   home-manager.useGlobalPkgs = true;
+  home-manager.users.winston.
 }
 

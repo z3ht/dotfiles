@@ -10,8 +10,5 @@
 
   networking.hostName = "firefly";
   networking.networkmanager.enable = true;
-  
-  # CHANGE WITH CARE
-  system.stateVersion = "22.05";
 }
 

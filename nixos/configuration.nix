@@ -6,7 +6,7 @@
       ./system/configuration.nix
       ./io/configuration.nix
       ./lang_locale/configuration.nix
-      ./home_manager/configuration.nix
+  #    ./home_manager/configuration.nix
     ];
   
   nixpkgs.config.allowUnfree = true;
@@ -29,7 +29,8 @@
      wget
      curl
      brave
-     git
+     usbutils
+     autorandr
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -53,6 +54,6 @@
 
   # CHANGE WITH CARE
   #  - Home Manager must use the same release version
-  system.stateVersion = "22.05";
+  system.stateVersion = "22.11";
 
 }
