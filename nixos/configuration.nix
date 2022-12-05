@@ -7,13 +7,13 @@
       ./io/configuration.nix
       ./lang_locale/configuration.nix
       ./home_manager/configuration.nix
+      ./window_manager/configuration.nix
     ];
   
   nixpkgs.config.allowUnfree = true;
 
   services.xserver = {
     enable = true;
-    windowManager.xmonad.enable = true;
     displayManager.sddm.enable = true;
   };
 
@@ -21,7 +21,7 @@
     isNormalUser = true;
     description = "winston";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [];
+    shell = pkgs.zsh;
   };
 
   environment.systemPackages = with pkgs; [
@@ -31,6 +31,9 @@
      brave
      usbutils
      autorandr
+     nixos-option
+     alacritty
+     jetbrains.clion
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

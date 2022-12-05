@@ -7,6 +7,7 @@ in
   imports = [
     (import "${home-manager}/nixos")
     ./pkgs/git.nix
+    ./pkgs/zsh.nix
   ];
   home-manager.useGlobalPkgs = true;
   home-manager.users.winston.home.stateVersion = "22.11";
