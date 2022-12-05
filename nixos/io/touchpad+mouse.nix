@@ -8,7 +8,7 @@
       accelProfile = "flat";
     };
     touchpad = {
-      accelSpeed = "0.7";
+      accelSpeed = "0.6";
       naturalScrolling = true;
       middleEmulation = true;
       tapping = true;
