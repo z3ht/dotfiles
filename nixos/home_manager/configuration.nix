@@ -9,6 +9,5 @@ in
     ./pkgs/git.nix
   ];
   home-manager.useGlobalPkgs = true;
-  home-manager.users.winston.
+  home-manager.users.winston.home.stateVersion = "22.11";
 }
-

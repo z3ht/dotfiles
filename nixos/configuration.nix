@@ -6,7 +6,7 @@
       ./system/configuration.nix
       ./io/configuration.nix
       ./lang_locale/configuration.nix
-  #    ./home_manager/configuration.nix
+      ./home_manager/configuration.nix
     ];
   
   nixpkgs.config.allowUnfree = true;
