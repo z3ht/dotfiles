@@ -1,6 +1,8 @@
 {
   imports = 
     [
-      ./xmonad.nix
+      ./i3.nix
+      ./polybar.nix
+      ./sddm.nix
     ];
 }

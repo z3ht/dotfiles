@@ -9,6 +9,11 @@
     enable = true;
     userName = "Andrew Darling";
     userEmail = "andr3w.darling@gmail.com";
+    extraConfig = {
+      pull = {
+        rebase = false;
+      };
+    };
   };
 }
 

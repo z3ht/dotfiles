@@ -1,0 +1,3 @@
+[submodule "keyboard"]
+	path = keyboard
+	url = https://github.com/z3ht/Adv360-Pro-ZMK
