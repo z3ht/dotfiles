@@ -1,3 +1,6 @@
 [submodule "keyboard"]
 	path = keyboard
 	url = https://github.com/z3ht/Adv360-Pro-ZMK
+[submodule "nvim-dotfiles"]
+	path = nvim-dotfiles
+	url = git@github.com:z3ht/nvim-dotfiles.git
